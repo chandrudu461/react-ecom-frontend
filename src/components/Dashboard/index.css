@@ -1,0 +1,37 @@
+.dashboard {
+    text-align: center;
+    padding: 20px;
+}
+
+.chart-container {
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.chart-heading {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.pie-chart {
+    width: 300px;
+    height: 300px;
+}
+
+.pie-chart-holder {
+    display: flex;
+    padding: 5%;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    .pie-chart-holder {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .pie-details {
+        display: block;
+    }
+}
